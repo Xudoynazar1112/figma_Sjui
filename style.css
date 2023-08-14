@@ -1,0 +1,639 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container .nav_bar {
+  width: 100%;
+  height: 80px;
+  position: relative;
+}
+.container .nav_bar img {
+  position: absolute;
+  top: 0;
+  left: 200px;
+  width: 59px;
+}
+.container .nav_bar .top_nav {
+  padding: 0 170px;
+  background-color: rgb(36, 36, 36);
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.container .nav_bar .top_nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+}
+.container .nav_bar .top_nav ul li {
+  list-style-type: none;
+  color: rgb(130, 130, 130);
+  cursor: pointer;
+}
+.container .nav_bar .top_nav ul li:hover {
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.container .nav_bar .bottom_nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 50px;
+  height: 40px;
+  padding: 0 170px;
+}
+.container .nav_bar .bottom_nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+}
+.container .nav_bar .bottom_nav ul li {
+  list-style-type: none;
+  color: rgb(164, 164, 164);
+}
+.container .nav_bar .bottom_nav ul li:hover {
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.container .nav_bar .bottom_nav ul #now {
+  background-color: rgb(0, 0, 133);
+  border-radius: 70px;
+  color: white;
+  padding: 5px 20px;
+}
+.container .mini_description {
+  background-color: rgba(245, 245, 247, 1);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .mini_description p {
+  color: rgba(163, 163, 163, 1);
+}
+.container .main {
+  position: relative;
+  min-height: 900px;
+}
+.container .main img {
+  position: absolute;
+}
+.container .main #child_toy {
+  top: 0;
+  right: 30px;
+}
+.container .main #coffee {
+  top: 15px;
+  left: 100px;
+}
+.container .main #milk {
+  bottom: 150px;
+  left: 0;
+}
+.container .main #shampun {
+  right: 30px;
+  bottom: 0;
+}
+.container .main #termiz {
+  bottom: 0;
+  left: 350px;
+}
+.container .main .main_info {
+  position: absolute;
+  top: 33%;
+  left: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  /* background-color: aquamarine; */
+}
+.container .main .main_info p {
+  font-size: 55px;
+}
+.container .main .main_info p span {
+  color: white;
+}
+.container .main .main_info span {
+  width: 600px;
+  text-align: center;
+  color: rgba(163, 163, 163, 1);
+}
+.container .main .main_info .arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 160px;
+}
+.container .main .main_info button {
+  background-color: rgba(51, 51, 51, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 15px 35px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.container .main .main_info button:hover {
+  color: black;
+  background-color: silver;
+  transition: 0.3s;
+}
+.container .some_text {
+  margin: 50px 200px;
+  font-size: 70px;
+  color: rgba(133, 133, 133, 1);
+}
+.container .some_text b {
+  color: rgba(39, 44, 51, 1);
+}
+.container .some_text span {
+  background-color: rgba(51, 51, 51, 1);
+  color: white;
+}
+.container .zavod {
+  position: relative;
+}
+.container .zavod #zavod_img {
+  width: 100%;
+  object-fit: cover;
+}
+.container .zavod #play_icon {
+  position: absolute;
+  top: 48%;
+  left: 44%;
+}
+.container .zavod span {
+  position: absolute;
+  border: 1px solid white;
+  border-radius: 43%;
+  top: 26%;
+  left: 38%;
+  width: 220px;
+  height: 330px;
+  transform: rotateZ(50deg);
+}
+.container .zavod p {
+  position: absolute;
+  top: 40%;
+  left: 33%;
+  color: white;
+  font-size: 22px;
+}
+.container .about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px 200px;
+}
+.container .about span {
+  font-size: 100px;
+  font-weight: 800;
+}
+.container .about .about_info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.container .about .about_info span {
+  font-size: 16px;
+}
+.container .about .about_info h1 {
+  font-size: 50px;
+}
+.container .about .about_info button {
+  padding: 10px 20px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.container .about .about_info button:hover {
+  -webkit-box-shadow: 5px 6px 5px 3px rgba(34, 60, 80, 0.6);
+  -moz-box-shadow: 5px 6px 5px 3px rgba(34, 60, 80, 0.6);
+  box-shadow: 5px 6px 5px 3px rgba(34, 60, 80, 0.6);
+  transition: 0.3s ease;
+  border: none;
+}
+.container .peaple {
+  margin: 30px 150px;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(245, 245, 247, 1);
+  border-image: 50%;
+  gap: 30px;
+}
+.container .peaple .person {
+  display: flex;
+  gap: 20px;
+}
+.container .peaple .person .person_info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .peaple .person .person_info p {
+  color: rgba(131, 131, 131, 1);
+}
+.container .peaple .person .person_info .person_icon {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  /* gap: 20px; */
+}
+.container .peaple .person .person_info button {
+  text-transform: capitalize;
+  padding: 5px 45px;
+}
+.container .peaple .person .person_info button:hover {
+  -webkit-box-shadow: 5px 6px 5px 3px rgba(34, 60, 80, 0.6);
+  -moz-box-shadow: 5px 6px 5px 3px rgba(34, 60, 80, 0.6);
+  box-shadow: 5px 6px 5px 3px rgba(34, 60, 80, 0.6);
+  transition: 0.3s ease;
+}
+.container .colaction {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 150px;
+}
+.container .colaction img {
+  width: 100%;
+  object-fit: cover;
+}
+.container .business h1 {
+  margin: 250px 0 0 250px;
+}
+.container .business .business_main {
+  margin: 0 0 0 250px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.container .business .business_main img {
+  width: 100%;
+  overflow: hidden;
+}
+.container .business .business_main img:nth-child(3) {
+  height: 650px;
+}
+.container .business .business_main .business_info p {
+  font-size: 140px;
+  font-weight: 700;
+}
+.container .business .business_main .business_info {
+  position: relative;
+}
+.container .business .business_main .business_info span {
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  width: 540px;
+  font-size: 20px;
+}
+.container .bajui {
+  /* position: relative; */
+  margin-top: 200px;
+}
+.container .bajui .bajui_title {
+  position: relative;
+}
+.container .bajui .bajui_title p:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  font-size: 90px;
+}
+.container .bajui .bajui_title p:nth-child(2) {
+  position: absolute;
+  top: 90px;
+  left: 40%;
+  font-size: 90px;
+}
+.container .bajui .bajui_main {
+  position: relative;
+  top: 300px;
+  padding: 0 180px;
+  font-size: 18px;
+}
+.container .bajui .bajui_main img {
+  width: 100%;
+  margin-top: 30px;
+}
+.container .bajui .bajui_main .bajui_info {
+  display: grid;
+  grid-template-columns: 0.8fr 1.4fr 0.8fr;
+  margin-top: 30px;
+  border-bottom: 1px solid rgba(210, 210, 210, 1);
+  margin-bottom: 20px;
+}
+.container .bajui .bajui_main .bajui_info .start {
+  padding: 0 40px 40px 0;
+}
+.container .bajui .bajui_main .bajui_info .start p {
+  font-size: 24px;
+  margin-top: 25px;
+}
+.container .bajui .bajui_main .bajui_info .middle {
+  position: relative;
+  padding: 0 40px 40px 40px;
+  border: 1px solid rgba(210, 210, 210, 1);
+  border-top: none;
+}
+.container .bajui .bajui_main .bajui_info .middle h2 {
+  position: absolute;
+  top: 40%;
+}
+.container .bajui .bajui_main .bajui_info .middle p {
+  position: absolute;
+  bottom: 40px;
+  font-size: 25px;
+}
+.container .bajui .bajui_main .bajui_info .end {
+  padding: 0 0 0 40px;
+}
+.container .bajui .bajui_main .bajui_info .end p {
+  font-size: 24px;
+  margin-top: 25px;
+}
+.container .bajui .bajui_main .testing {
+  margin-top: 50px;
+}
+.container .bajui .bajui_main .testing p {
+  margin-top: 20px;
+  font-size: 22px;
+}
+.container .certificate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  margin-top: 500px;
+}
+.container .certificate .certificate_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .certificate .certificate_info p {
+  color: white;
+  font-size: 150px;
+}
+.container .certificate .certificate_info .lisence {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .certificate .certificate_info .lisence span {
+  color: white;
+  font-size: 20px;
+  width: 250px;
+}
+.container .certificate .certificate_info pre {
+  color: white;
+  margin: 20px;
+}
+.container .certificate .certificate_info button {
+  padding: 10px 25px;
+}
+.container .certificate .certificate_info button:hover {
+  color: rgb(255, 0, 183);
+  background-color: chartreuse;
+}
+.container .colors {
+  margin: 100px 250px;
+  background-color: rgba(245, 245, 247, 1);
+  border-radius: 12px;
+}
+.container .colors img {
+  padding: 80px 50px;
+  width: 100%;
+}
+.container .colors .color_info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.container .colors .color_info .info_left {
+  text-align: center;
+  font-size: 60px;
+  padding: 40px;
+}
+.container .colors .color_info .info_right {
+  padding: 60px;
+}
+.container .colors .color_info .info_right a {
+  text-decoration: none;
+}
+.container .colors .color_info .info_right p {
+  margin-bottom: 20px;
+}
+.container .projects {
+  margin: 0 250px;
+}
+.container .projects .project_title {
+  margin-bottom: 20px;
+}
+.container .projects .project_title p {
+  font-size: 140px;
+}
+.container .projects .project_main {
+  position: relative;
+  width: 100%;
+  height: 1800px;
+}
+.container .projects .project_main p {
+  margin: 20px 0;
+}
+.container .projects .project_main a {
+  text-decoration: none;
+}
+.container .projects .project_main .main_agro {
+  width: 300px;
+}
+.container .projects .project_main #agro {
+  position: absolute;
+  right: 70px;
+  top: 0;
+  width: 500px;
+}
+.container .projects .project_main .main_mexanica {
+  position: absolute;
+  right: 150px;
+  top: 670px;
+  width: 300px;
+}
+.container .projects .project_main #mexanica {
+  position: absolute;
+  left: 0;
+  top: 400px;
+  width: 500px;
+}
+.container .projects .project_main .main_shlem {
+  position: absolute;
+  top: 1100px;
+  left: 0;
+  width: 300px;
+}
+.container .projects .project_main #shlem {
+  position: absolute;
+  right: 70px;
+  top: 900px;
+  width: 500px;
+}
+.container .projects .project_main #room {
+  position: absolute;
+  left: 0;
+  top: 1400px;
+  width: 500px;
+}
+.container .projects .project_main .main_room {
+  position: absolute;
+  bottom: -30px;
+  right: 70px;
+  width: 950px;
+}
+.container .information {
+  margin: 50px 230px;
+}
+
+.container .information .double {
+  display: flex;
+}
+.container .information .double .career_jobs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+  background-color: rgba(245, 245, 247, 1);
+  width: 49%;
+  padding: 10px;
+  margin: 20px;
+}
+.container .information .double .career_jobs p {
+  text-align: center;
+  padding: 10px 0;
+}
+.container .information .double .financial_growth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+  background-color: rgba(245, 245, 247, 1);
+  width: 49%;
+  padding: 10px;
+  margin: 20px;
+}
+.container .information .double .financial_growth {
+  text-align: center;
+  padding: 10px 0;
+}
+.container .information .india {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+  background-color: rgba(245, 245, 247, 1);
+  width: 100%;
+  padding: 10px;
+  margin: 20px;
+}
+.container .information .india .india_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 0 100px;
+}
+.container .information .india .india_info p {
+  width: 300px;
+}
+.container .information .india .india_info h1 {
+  font-size: 70px;
+  width: 400px;
+}
+.container .information .india button {
+  margin: 50px 0;
+  text-align: center;
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: white;
+  background-color: rgb(56, 56, 255);
+  cursor: pointer;
+}
+.container .information .india button:hover {
+  box-shadow: 3px 3px red, -1em 0 0.4em olive;
+}
+.container .footer_img img {
+  width: 100%;
+  object-fit: cover;
+}
+.container footer .contact li,
+i {
+  cursor: pointer;
+}
+.container footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 60px;
+}
+.container footer li {
+  list-style-type: none;
+}
+.container footer .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container footer .contact ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container footer .navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container footer .navigation ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container footer .navigation .nav_icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.container footer .navigation ul #footer_icon ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container footer .footer_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container footer .footer_info ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
